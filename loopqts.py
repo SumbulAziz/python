@@ -37,7 +37,6 @@ for i in num:
     if i > largest_number:
         largest_number = i
 print(largest_number)
-#qt] Find the average of numbers in a list using a for loop
 
 #qt] Print all uppercase letters in a string using a for loop
 a= "Hello World Loop "
@@ -57,7 +56,7 @@ for i in range(rows):
   for j in range(i + 1):
     print("*", end="")
   print()
-#qt] Calculate factorial of a number using a while loop
+
 
 #qt] Calculate the sum of numbers from 1 to 100 using a while loop
 def sum_no(n):
@@ -69,12 +68,11 @@ def sum_no(n):
     return sum
 result = sum_no(100)
 print(result)
-#qt] Find all prime numbers between 1 and 50 using nested for and if
+
 #qt] Print numbers divisible by 3 or 5 from 1 to 20 using a for loop
 for numbers in range(1, 21):
   if numbers % 3 == 0 or numbers % 5 == 0:
     print(numbers)
-#qt] Print the Fibonacci sequence up to the 10th term using a while loop
 #qt] Find the common elements in two lists using a for loop
 li1=[10,20,30,40,50]
 li2=[90,10,30,70,80]
